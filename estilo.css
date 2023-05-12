@@ -1,25 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo{
+.logo {
     width: 100px;
     height: 100px;
     border-radius: 18px;
     background-color: #ab226d;
     position: relative;
+    animation: girar 5s alternate linear;
 }
-.logo .maiorq{
+
+.logo .maiorq {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -27,8 +29,9 @@ body{
     left: 10px;
     transform: translateY(-50%) rotate(45deg);
 }
+
 .logo .maiorq::after,
-.logo .maiorq::before{
+.logo .maiorq::before {
     content: "";
     width: 30px;
     height: 8px;
@@ -37,17 +40,66 @@ body{
     top: 0;
     left: 0;
 }
-.logo .maiorq::before{
+
+.logo .maiorq::before {
     width: 8px;
     height: 30px;
     left: initial;
     right: 0;
 }
-.logo .underline{
+
+.logo .underline {
     width: 25px;
     height: 7px;
     background-color: white;
     position: absolute;
     bottom: 30px;
     right: 20px;
+}
+/* 
+360
+720
+1080
+1440
+1800
+2160
+2520
+2880
+ */
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(360deg);
+    }
+    20% {
+        transform: rotate(720deg);
+    }
+    30% {
+        transform: rotate(1080deg);
+    }
+    40% {
+        transform: rotate(1440deg);
+    }
+    50% {
+        transform: rotate(1800deg);
+    }
+    60% {
+        transform: rotate(2160deg);
+    }
+    70% {
+        transform: rotate(2520deg);
+    }
+    80% {
+        transform: rotate(2880deg);
+    }
+    90% {
+        transform: rotate(3240deg);
+    }
+    100% {
+        transform: rotate(3600deg);
+    }
+
 }
