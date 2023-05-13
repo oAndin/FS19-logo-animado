@@ -159,3 +159,48 @@ body {
         transform: rotate(deg);
     }
 }
+/* @keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(deg);
+    }
+
+    20% {
+        transform: rotate(deg);
+    }
+
+    30% {
+        transform: rotate(deg);
+    }
+
+    40% {
+        transform: rotate(deg);
+    }
+
+    50% {
+        transform: rotate(deg);
+    }
+
+    60% {
+        transform: rotate(deg);
+    }
+
+    70% {
+        transform: rotate(deg);
+    }
+
+    80% {
+        transform: rotate(deg);
+    }
+
+    90% {
+        transform: rotate(deg);
+    }
+
+    100% {
+        transform: rotate(deg);
+    }
+} */
