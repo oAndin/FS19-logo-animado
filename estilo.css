@@ -18,7 +18,8 @@ body {
     border-radius: 18px;
     background-color: #ab226d;
     position: relative;
-    animation: girar 5s alternate linear;
+    animation: girar 10s linear 1;
+    /* animation: girar / duration / timing-function / delay / iteration-count / direction / fill-mode; */
 }
 
 .logo .maiorq {
@@ -56,6 +57,7 @@ body {
     bottom: 30px;
     right: 20px;
 }
+
 /* 
 360
 720
@@ -67,39 +69,93 @@ body {
 2880
  */
 
+/* @keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(3600deg);
+    }
+
+    20% {
+        transform: rotate(6840deg);
+    }
+
+    30% {
+        transform: rotate(9720deg);
+    }
+
+    40% {
+        transform: rotate(12240deg);
+    }
+
+    50% {
+        transform: rotate(14400deg);
+    }
+
+    60% {
+        transform: rotate(16200deg);
+    }
+
+    70% {
+        transform: rotate(17640deg);
+    }
+
+    80% {
+        transform: rotate(18720deg);
+    }
+
+    90% {
+        transform: rotate(19440deg);
+    }
+
+    100% {
+        transform: rotate(19800deg);
+    }
+} */
 @keyframes girar {
     0% {
         transform: rotate(0deg);
     }
+
     10% {
-        transform: rotate(360deg);
-    }
-    20% {
-        transform: rotate(720deg);
-    }
-    30% {
-        transform: rotate(1080deg);
-    }
-    40% {
-        transform: rotate(1440deg);
-    }
-    50% {
-        transform: rotate(1800deg);
-    }
-    60% {
-        transform: rotate(2160deg);
-    }
-    70% {
-        transform: rotate(2520deg);
-    }
-    80% {
-        transform: rotate(2880deg);
-    }
-    90% {
-        transform: rotate(3240deg);
-    }
-    100% {
-        transform: rotate(3600deg);
+        transform: rotate(deg);
     }
 
+    20% {
+        transform: rotate(deg);
+    }
+
+    30% {
+        transform: rotate(deg);
+    }
+
+    40% {
+        transform: rotate(deg);
+    }
+
+    50% {
+        transform: rotate(deg);
+    }
+
+    60% {
+        transform: rotate(deg);
+    }
+
+    70% {
+        transform: rotate(deg);
+    }
+
+    80% {
+        transform: rotate(deg);
+    }
+
+    90% {
+        transform: rotate(deg);
+    }
+
+    100% {
+        transform: rotate(deg);
+    }
 }
