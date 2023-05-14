@@ -85,8 +85,21 @@ body {
     overflow: hidden;
     border: 10px solid #000;
     /* box-shadow:  10px 10px 10px; */
-    animation: girar 10s linear 1;
+    animation: girar 20s ease normal;
+    
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* 
+    Name é auto explicativo
+    duration também né carai
+    timing-fuction é a forma que ela vai fazer a animação
+    delay é delay né man
+    count é auto explicativo do inglês
+    direction vai ser a direção que ela vai, so para frente, para frente e para tras
+    fill mode é a forma que ela vai aprecer
+    */
 }
+
 
 .container div 
 {
@@ -143,37 +156,9 @@ body {
 
 @keyframes girar {
     0% {
-        transform: rotate(0deg)
-    }
-    10% {
-        transform: rotate(36deg)
-    }
-    20% {
-        transform: rotate(72deg)
-    }
-    30% {
-        transform: rotate(108deg)
-    }
-    40% {
-        transform: rotate(144deg)
-    }
-    50% {
-        transform: rotate(180deg)
-    }
-    60% {
-        transform: rotate(216deg)
-    }
-    70% {
-        transform: rotate(252deg)
-    }
-    80% {
-        transform: rotate(288deg)
-    }
-    90% {
-        transform: rotate(324deg)
+        transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg)
+        transform: rotate(3600deg);
     }
-    
 }
