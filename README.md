@@ -3,4 +3,4 @@
 
 ## sei que é possível adicionar um botão para realizar o giro, sem precisar recarregar a página para realizar a animação, mas caso eu venha a revisitar esse projeto, adiciono o botão.
 
-### Esse projeto me ensinou uma valiosa lição, nunca desista dos seus sonhos, e sempre há mais maneiras de fazer o que você quer, talvez só precise estudar as opções, opções aqui são as propriedades da animações e não a velocidade de um giro determinado pelo graus!
+#### Esse projeto me ensinou uma valiosa lição, nunca desista dos seus sonhos, e sempre há mais maneiras de fazer o que você quer, talvez só precise estudar as opções, opções aqui são as propriedades da animações e não a velocidade de um giro determinado pelo graus!
